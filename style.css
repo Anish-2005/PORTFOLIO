@@ -118,6 +118,9 @@ section .title::after{
     color:#a28b8e;
     transition: all 0.3s ease;
 }
+.navbar .logo a span:hover{
+    color:darkred;
+}
 .navbar.sticky .logo a span{
     color: #fff;
 }
@@ -156,7 +159,7 @@ section .title::after{
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #e0002d;
+    color: #ff3300;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -172,7 +175,7 @@ section .title::after{
     pointer-events: auto;
 }
 .scroll-up-btn:hover{
-    filter: brightness(90%);
+    color: yellow;
 }
 
 
@@ -300,7 +303,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #37333a;
+    color: #2549da;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -315,9 +318,17 @@ section .title::after{
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
+}.skills .skills-content .right span:hover{
+    font-weight: 1000;
+    font-size: 24px;
 }
 .skills .skills-content .right .line{
     height: 5px;
+    width: 100%;
+    background:  #330000;
+    position: relative;
+}.skills .skills-content .right .line:hover{
+    height: 10px;
     width: 100%;
     background:  #330000;
     position: relative;
@@ -375,6 +386,9 @@ section .title::after{
 .contact .contact-content .row i{
     font-size: 25px;
     color:  #6fb6e2;
+}.contact .contact-content .row i:hover{
+  font-size: 30px;
+  color: #060656;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -407,6 +421,16 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}.contact .right form .textarea textarea:hover{
+    height: 100%;
+    width: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 10px;
+    font-size: 21px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
@@ -452,7 +476,8 @@ footer span a{
     color: #848eb8;
 }
 footer span a:hover{
-    text-decoration: underline;
+  color: #161646
+  ;
 }
 
 
